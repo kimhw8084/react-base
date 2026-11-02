@@ -1,0 +1,37 @@
+{
+  "name": "skeleton",
+  "type": "registry:ui",
+  "description": "skeleton and its local source dependencies from the checked-in vite starter.",
+  "dependencies": [
+    "@base-ui/react",
+    "@fontsource-variable/geist",
+    "@shadcn/react",
+    "@tailwindcss/vite",
+    "class-variance-authority",
+    "cmdk",
+    "cn",
+    "date-fns",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "next-themes",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-resizable-panels",
+    "recharts",
+    "shadcn",
+    "shiki",
+    "sonner",
+    "tailwindcss",
+    "tw-animate-css"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/base-nova/ui/skeleton.tsx",
+      "type": "registry:ui",
+      "content": "import { cn } from \"cn\"\n\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"skeleton\"\n      className={cn(\"animate-pulse rounded-md bg-muted\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n"
+    }
+  ]
+}

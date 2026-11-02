@@ -1,0 +1,37 @@
+{
+  "name": "collapsible",
+  "type": "registry:ui",
+  "description": "collapsible and its local source dependencies from the checked-in next starter.",
+  "dependencies": [
+    "@base-ui/react",
+    "@fontsource-variable/geist",
+    "@fontsource-variable/geist-mono",
+    "@shadcn/react",
+    "class-variance-authority",
+    "cmdk",
+    "cn",
+    "date-fns",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "next",
+    "next-themes",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-resizable-panels",
+    "recharts",
+    "shadcn",
+    "shiki",
+    "sonner",
+    "tw-animate-css"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/base-nova/ui/collapsible.tsx",
+      "type": "registry:ui",
+      "content": "\"use client\"\n\nimport { Collapsible as CollapsiblePrimitive } from \"@base-ui/react/collapsible\"\n\nfunction Collapsible({ ...props }: CollapsiblePrimitive.Root.Props) {\n  return <CollapsiblePrimitive.Root data-slot=\"collapsible\" {...props} />\n}\n\nfunction CollapsibleTrigger({ ...props }: CollapsiblePrimitive.Trigger.Props) {\n  return (\n    <CollapsiblePrimitive.Trigger data-slot=\"collapsible-trigger\" {...props} />\n  )\n}\n\nfunction CollapsibleContent({ ...props }: CollapsiblePrimitive.Panel.Props) {\n  return (\n    <CollapsiblePrimitive.Panel data-slot=\"collapsible-content\" {...props} />\n  )\n}\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent }\n"
+    }
+  ]
+}

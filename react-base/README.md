@@ -1,21 +1,11 @@
-# React + TypeScript + Vite + shadcn/ui
+# Vite + React + TypeScript starter
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+This starter is part of the offline kit at the repository root. From the kit root, create a new app and add components from the vendored registry:
 
-## Adding components
-
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
+```sh
+sh offline/run.sh create vite ./work/my-app
+sh offline/run.sh add vite ./work/my-app button chart sidebar
+sh offline/run.sh build ./work/my-app
 ```
 
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+The starter already includes its dependency set and the 64-component `base-nova` snapshot. For component imports, use the local aliases, such as `@/components/ui/button`.

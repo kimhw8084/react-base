@@ -1,0 +1,326 @@
+{
+  "style": "base-nova",
+  "source": "../next-app/components/ui",
+  "items": [
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "description": "accordion and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "description": "alert and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "description": "alert-dialog and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "description": "aspect-ratio and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "attachment",
+      "type": "registry:ui",
+      "description": "attachment and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "description": "avatar and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "description": "badge and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "description": "breadcrumb and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "bubble",
+      "type": "registry:ui",
+      "description": "bubble and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "description": "button and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "description": "button-group and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "description": "calendar and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "description": "card and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "description": "carousel and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "description": "chart and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "description": "checkbox and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "code-block",
+      "type": "registry:ui",
+      "description": "code-block and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "description": "collapsible and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "description": "combobox and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "description": "command and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "description": "context-menu and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "description": "dialog and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "direction",
+      "type": "registry:ui",
+      "description": "direction and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "description": "drawer and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "description": "dropdown-menu and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "description": "empty and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "description": "field and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "description": "hover-card and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "description": "input and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "description": "input-group and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "description": "input-otp and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "description": "item and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "description": "kbd and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "description": "label and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "marker",
+      "type": "registry:ui",
+      "description": "marker and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "description": "menubar and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "message",
+      "type": "registry:ui",
+      "description": "message and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "message-scroller",
+      "type": "registry:ui",
+      "description": "message-scroller and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "native-select",
+      "type": "registry:ui",
+      "description": "native-select and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "description": "navigation-menu and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "description": "pagination and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "description": "popover and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "description": "progress and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "questionnaire",
+      "type": "registry:ui",
+      "description": "questionnaire and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "description": "radio-group and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "resizable",
+      "type": "registry:ui",
+      "description": "resizable and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "description": "scroll-area and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "description": "select and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "description": "separator and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "description": "sheet and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "description": "sidebar and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "description": "skeleton and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "description": "slider and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "description": "sonner and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "description": "spinner and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "description": "switch and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "description": "table and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "description": "tabs and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "description": "textarea and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "description": "toast and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "description": "toggle and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "description": "toggle-group and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "description": "tooltip and its local source dependencies from the checked-in next starter."
+    },
+    {
+      "name": "trace",
+      "type": "registry:ui",
+      "description": "trace and its local source dependencies from the checked-in next starter."
+    }
+  ]
+}

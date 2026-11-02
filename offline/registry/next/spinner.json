@@ -1,0 +1,37 @@
+{
+  "name": "spinner",
+  "type": "registry:ui",
+  "description": "spinner and its local source dependencies from the checked-in next starter.",
+  "dependencies": [
+    "@base-ui/react",
+    "@fontsource-variable/geist",
+    "@fontsource-variable/geist-mono",
+    "@shadcn/react",
+    "class-variance-authority",
+    "cmdk",
+    "cn",
+    "date-fns",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "next",
+    "next-themes",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-resizable-panels",
+    "recharts",
+    "shadcn",
+    "shiki",
+    "sonner",
+    "tw-animate-css"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/base-nova/ui/spinner.tsx",
+      "type": "registry:ui",
+      "content": "import { cn } from \"cn\"\nimport { Loader2Icon } from \"lucide-react\"\n\nfunction Spinner({ className, ...props }: React.ComponentProps<\"svg\">) {\n  return (\n    <Loader2Icon data-slot=\"spinner\" role=\"status\" aria-label=\"Loading\" className={cn(\"size-4 animate-spin\", className)} {...props} />\n  )\n}\n\nexport { Spinner }\n"
+    }
+  ]
+}

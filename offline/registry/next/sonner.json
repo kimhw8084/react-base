@@ -1,0 +1,37 @@
+{
+  "name": "sonner",
+  "type": "registry:ui",
+  "description": "sonner and its local source dependencies from the checked-in next starter.",
+  "dependencies": [
+    "@base-ui/react",
+    "@fontsource-variable/geist",
+    "@fontsource-variable/geist-mono",
+    "@shadcn/react",
+    "class-variance-authority",
+    "cmdk",
+    "cn",
+    "date-fns",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "next",
+    "next-themes",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-resizable-panels",
+    "recharts",
+    "shadcn",
+    "shiki",
+    "sonner",
+    "tw-animate-css"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/base-nova/ui/sonner.tsx",
+      "type": "registry:ui",
+      "content": "\"use client\"\n\nimport {\n  CircleCheckIcon,\n  InfoIcon,\n  Loader2Icon,\n  OctagonXIcon,\n  TriangleAlertIcon,\n} from \"lucide-react\"\nimport { useTheme } from \"next-themes\"\nimport { Toaster as Sonner, type ToasterProps } from \"sonner\"\nimport type { CSSProperties } from \"react\"\n\nfunction Toaster({ ...props }: ToasterProps) {\n  const { theme = \"system\" } = useTheme()\n\n  return (\n    <Sonner\n      theme={theme as ToasterProps[\"theme\"]}\n      className=\"toaster group\"\n      icons={{\n        success: <CircleCheckIcon className=\"size-4\" />,\n        info: <InfoIcon className=\"size-4\" />,\n        warning: <TriangleAlertIcon className=\"size-4\" />,\n        error: <OctagonXIcon className=\"size-4\" />,\n        loading: <Loader2Icon className=\"size-4 animate-spin\" />,\n      }}\n      style={\n        {\n          \"--normal-bg\": \"var(--popover)\",\n          \"--normal-text\": \"var(--popover-foreground)\",\n          \"--normal-border\": \"var(--border)\",\n          \"--border-radius\": \"var(--radius)\",\n        } as CSSProperties\n      }\n      toastOptions={{\n        classNames: {\n          toast: \"cn-toast\",\n        },\n      }}\n      {...props}\n    />\n  )\n}\n\nexport { Toaster }\n"
+    }
+  ]
+}

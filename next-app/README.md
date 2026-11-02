@@ -1,21 +1,11 @@
-# Next.js template
+# Next.js starter
 
-This is a Next.js template with shadcn/ui.
+This starter is part of the offline kit at the repository root. From the kit root, create a new app and add components from the vendored registry:
 
-## Adding components
-
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
+```sh
+sh offline/run.sh create next ./work/my-app
+sh offline/run.sh add next ./work/my-app button chart sidebar
+sh offline/run.sh build ./work/my-app
 ```
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+On Windows, use `offline/run.ps1` in PowerShell. The starter includes local Geist fonts and its dependency set. For component imports, use aliases such as `@/components/ui/button`.

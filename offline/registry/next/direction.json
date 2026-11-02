@@ -1,0 +1,37 @@
+{
+  "name": "direction",
+  "type": "registry:ui",
+  "description": "direction and its local source dependencies from the checked-in next starter.",
+  "dependencies": [
+    "@base-ui/react",
+    "@fontsource-variable/geist",
+    "@fontsource-variable/geist-mono",
+    "@shadcn/react",
+    "class-variance-authority",
+    "cmdk",
+    "cn",
+    "date-fns",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "next",
+    "next-themes",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-resizable-panels",
+    "recharts",
+    "shadcn",
+    "shiki",
+    "sonner",
+    "tw-animate-css"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/base-nova/ui/direction.tsx",
+      "type": "registry:ui",
+      "content": "\"use client\"\n\nexport {\n  DirectionProvider,\n  useDirection,\n} from \"@base-ui/react/direction-provider\"\n"
+    }
+  ]
+}
