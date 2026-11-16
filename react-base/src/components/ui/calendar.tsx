@@ -10,7 +10,7 @@ import {
 } from "react-day-picker"
 
 import { Button, buttonVariants } from "@/components/ui/button"
-import { ChevronLeftIcon, ChevronRightIcon, ChevronDownIcon } from "lucide-react"
+import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 function Calendar({
   className,
@@ -73,7 +73,7 @@ function Calendar({
           defaultClassNames.dropdowns
         ),
         dropdown_root: cn(
-          "relative rounded-(--cell-radius)",
+          "cn-calendar-dropdown-root relative rounded-(--cell-radius)",
           defaultClassNames.dropdown_root
         ),
         dropdown: cn(
@@ -83,8 +83,8 @@ function Calendar({
         caption_label: cn(
           "font-medium select-none",
           captionLayout === "label"
-            ? "text-sm"
-            : "flex items-center gap-1 rounded-(--cell-radius) text-sm [&>svg]:size-3.5 [&>svg]:text-muted-foreground",
+            ? "cn-calendar-caption text-sm"
+            : "cn-calendar-caption-label flex items-center gap-1 rounded-(--cell-radius) text-sm [&>svg]:size-3.5 [&>svg]:text-muted-foreground",
           defaultClassNames.caption_label
         ),
         month_grid: cn("w-full border-collapse", defaultClassNames.month_grid),
@@ -147,18 +147,42 @@ function Calendar({
         Chevron: ({ className, orientation, ...props }) => {
           if (orientation === "left") {
             return (
-              <ChevronLeftIcon className={cn("size-4", className)} {...props} />
+              <IconPlaceholder
+                lucide="ChevronLeftIcon"
+                tabler="IconChevronLeft"
+                hugeicons="ArrowLeftIcon"
+                phosphor="CaretLeftIcon"
+                remixicon="RiArrowLeftSLine"
+                className={cn("cn-rtl-flip size-4", className)}
+                {...props}
+              />
             )
           }
 
           if (orientation === "right") {
             return (
-              <ChevronRightIcon className={cn("size-4", className)} {...props} />
+              <IconPlaceholder
+                lucide="ChevronRightIcon"
+                tabler="IconChevronRight"
+                hugeicons="ArrowRightIcon"
+                phosphor="CaretRightIcon"
+                remixicon="RiArrowRightSLine"
+                className={cn("cn-rtl-flip size-4", className)}
+                {...props}
+              />
             )
           }
 
           return (
-            <ChevronDownIcon className={cn("size-4", className)} {...props} />
+            <IconPlaceholder
+              lucide="ChevronDownIcon"
+              tabler="IconChevronDown"
+              hugeicons="ArrowDownIcon"
+              phosphor="CaretDownIcon"
+              remixicon="RiArrowDownSLine"
+              className={cn("size-4", className)}
+              {...props}
+            />
           )
         },
         DayButton: ({ ...props }) => (

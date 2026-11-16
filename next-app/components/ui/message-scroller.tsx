@@ -10,7 +10,7 @@ import {
 import { cn } from "cn"
 
 import { Button } from "@/components/ui/button"
-import { ArrowDownIcon } from "lucide-react"
+import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 function MessageScrollerProvider(
   props: React.ComponentProps<typeof MessageScrollerPrimitive.Provider>
@@ -107,7 +107,12 @@ function MessageScrollerButton({
     >
       {children ?? (
         <>
-          <ArrowDownIcon
+          <IconPlaceholder
+            lucide="ArrowDownIcon"
+            tabler="IconArrowDown"
+            hugeicons="ArrowDown02Icon"
+            phosphor="ArrowDownIcon"
+            remixicon="RiArrowDownLine"
           />
           <span className="sr-only">
             {direction === "end" ? "Scroll to end" : "Scroll to start"}

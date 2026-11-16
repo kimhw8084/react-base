@@ -1,0 +1,14 @@
+{
+  "name": "utils",
+  "dependencies": [
+    "cn"
+  ],
+  "files": [
+    {
+      "path": "registry/base-nova/lib/utils.ts",
+      "content": "export { cn } from \"cn\"\n",
+      "type": "registry:lib"
+    }
+  ],
+  "type": "registry:lib"
+}

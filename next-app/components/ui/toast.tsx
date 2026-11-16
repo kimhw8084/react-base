@@ -5,7 +5,7 @@ import { Toast as ToastPrimitive } from "@base-ui/react/toast"
 import { cn } from "cn"
 
 import { Button } from "@/components/ui/button"
-import { XIcon, CircleCheckIcon, InfoIcon, TriangleAlertIcon, OctagonXIcon, Loader2Icon } from "lucide-react"
+import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 const toast = ToastPrimitive.createToastManager()
 
@@ -126,7 +126,14 @@ function ToastClose({
       {...props}
     >
       {children ?? (
-        <XIcon aria-hidden="true" />
+        <IconPlaceholder
+          lucide="XIcon"
+          tabler="IconX"
+          hugeicons="Cancel01Icon"
+          phosphor="XIcon"
+          remixicon="RiCloseLine"
+          aria-hidden="true"
+        />
       )}
     </ToastPrimitive.Close>
   )
@@ -137,31 +144,68 @@ function ToastIcon({ type }: { type: string | undefined }) {
 
   if (type === "success") {
     icon = (
-      <CircleCheckIcon aria-hidden="true" />
+      <IconPlaceholder
+        lucide="CircleCheckIcon"
+        tabler="IconCircleCheck"
+        hugeicons="CheckmarkCircle02Icon"
+        phosphor="CheckCircleIcon"
+        remixicon="RiCheckboxCircleLine"
+        aria-hidden="true"
+      />
     )
   }
 
   if (type === "info") {
     icon = (
-      <InfoIcon aria-hidden="true" />
+      <IconPlaceholder
+        lucide="InfoIcon"
+        tabler="IconInfoCircle"
+        hugeicons="InformationCircleIcon"
+        phosphor="InfoIcon"
+        remixicon="RiInformationLine"
+        aria-hidden="true"
+      />
     )
   }
 
   if (type === "warning") {
     icon = (
-      <TriangleAlertIcon aria-hidden="true" />
+      <IconPlaceholder
+        lucide="TriangleAlertIcon"
+        tabler="IconAlertTriangle"
+        hugeicons="Alert02Icon"
+        phosphor="WarningIcon"
+        remixicon="RiErrorWarningLine"
+        aria-hidden="true"
+      />
     )
   }
 
   if (type === "error") {
     icon = (
-      <OctagonXIcon className="text-destructive" aria-hidden="true" />
+      <IconPlaceholder
+        lucide="OctagonXIcon"
+        tabler="IconAlertOctagon"
+        hugeicons="MultiplicationSignCircleIcon"
+        phosphor="XCircleIcon"
+        remixicon="RiCloseCircleLine"
+        className="text-destructive"
+        aria-hidden="true"
+      />
     )
   }
 
   if (type === "loading") {
     icon = (
-      <Loader2Icon className="animate-spin" aria-hidden="true" />
+      <IconPlaceholder
+        lucide="Loader2Icon"
+        tabler="IconLoader"
+        hugeicons="Loading03Icon"
+        phosphor="SpinnerIcon"
+        remixicon="RiLoaderLine"
+        className="animate-spin"
+        aria-hidden="true"
+      />
     )
   }
 

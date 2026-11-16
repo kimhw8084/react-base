@@ -1,0 +1,15 @@
+{
+  "name": "font-heading-montserrat",
+  "title": "Montserrat (Heading)",
+  "type": "registry:font",
+  "font": {
+    "family": "'Montserrat Variable', sans-serif",
+    "provider": "google",
+    "import": "Montserrat",
+    "variable": "--font-heading",
+    "subsets": [
+      "latin"
+    ],
+    "dependency": "@fontsource-variable/montserrat"
+  }
+}

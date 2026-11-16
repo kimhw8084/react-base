@@ -1,0 +1,15 @@
+{
+  "name": "font-heading-eb-garamond",
+  "title": "EB Garamond (Heading)",
+  "type": "registry:font",
+  "font": {
+    "family": "'EB Garamond Variable', serif",
+    "provider": "google",
+    "import": "EB_Garamond",
+    "variable": "--font-heading",
+    "subsets": [
+      "latin"
+    ],
+    "dependency": "@fontsource-variable/eb-garamond"
+  }
+}

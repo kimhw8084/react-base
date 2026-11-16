@@ -1,0 +1,15 @@
+{
+  "name": "font-heading-raleway",
+  "title": "Raleway (Heading)",
+  "type": "registry:font",
+  "font": {
+    "family": "'Raleway Variable', sans-serif",
+    "provider": "google",
+    "import": "Raleway",
+    "variable": "--font-heading",
+    "subsets": [
+      "latin"
+    ],
+    "dependency": "@fontsource-variable/raleway"
+  }
+}
